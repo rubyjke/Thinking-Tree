@@ -1,5 +1,6 @@
 body{
     background-color: rgb(248, 255, 243);
+
     margin-left:12em;
     margin-right: 12em;
     margin-top:6em;
@@ -11,31 +12,22 @@ body{
     color:rgb(3, 61, 20);
 }
 
+#Scrapyard{
+    background-size: 30px 30px;
+    background-image:
+    linear-gradient(to right, rgb(206, 236, 224) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(206, 236, 224) 1px, transparent 1px);
+}
+
 div.quote{
     margin-left:2em;
     font-weight:400;
     font-style: italic;
 }
 
-#Scrapyard{
-    height:50%;
-    width: 50%;
-    margin-left:25%;
-    margin-right:25%;
-    border-radius: 24px;
-}
-
-#ruby{
-    height:50%;
-    width:50%;
-    margin-left:25%;
-    margin-right:25%;
-}
-
 img{
-    border-radius: 24px;
-    margin-left:25%;
-    margin-right:25%;
+    border-radius:10px;
+    display: inline;
 }
 
 a:link {
@@ -53,4 +45,28 @@ a:hover {
 
 #contactPage{
     text-align: center;
+}
+
+.container{
+  display: grid; 
+  align-items: center;
+  grid-template-columns: 1fr 2fr;
+}
+
+button{
+  background-color: rgb(248, 255, 243);
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+  border-color:rgb(3, 61, 20);
+
+  font-family: "Quicksand", sans-serif;
+  font-weight:500;
+  font-style: normal;
+  color:rgb(3, 61, 20); 
+}
+
+hr{
+  border-top: 1px solid;
+  color:rgb(3, 61, 20); 
 }
