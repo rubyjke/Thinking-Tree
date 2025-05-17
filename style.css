@@ -15,8 +15,8 @@ body{
 #Scrapyard{
     background-size: 30px 30px;
     background-image:
-    linear-gradient(to right, rgb(206, 236, 224) 1px, transparent 1px),
-    linear-gradient(to bottom, rgb(206, 236, 224) 1px, transparent 1px);
+    linear-gradient(to right, rgb(221, 245, 235) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(221, 245, 235) 1px, transparent 1px);
 }
 
 div.quote{
